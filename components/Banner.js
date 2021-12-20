@@ -5,7 +5,7 @@ import background from '../images/backgroundSvg.svg'
 function Banner() {
   return (
     <Parallax >
-         <div className=" pt-52  pb-52 bg-BannerBackground bg-cover bg-no-repeat">  
+         <div className=" pt-52  pb-56  bg-bannerBackground2 bg-no-repeat bg-cover ">  
       <div className=" max-w-7xl mx-auto">
       <div className="text-center">
         <h1 className="text-6xl font-Bowlby text-white">

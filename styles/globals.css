@@ -92,6 +92,14 @@
       width: 100%;
       display: table;
     }
+
+    .Downloadlink {
+      text-align: center;
+      padding: 4rem;
+      width: 100%;
+      display: table;
+      background: black;
+    }
   
     .nav-links:hover {
      

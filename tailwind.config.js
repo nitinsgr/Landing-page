@@ -10,7 +10,8 @@ module.exports = {
         'Krona': ['Krona one'],
       },
       backgroundImage : theme => ({
-        'BannerBackground': "url('../images/clouds.jpg')"
+        'BannerBackground': "url('../images/Untitled-1.png')",
+        'bannerBackground2': "url('../images/clouds.jpg')"
       })
 
     },

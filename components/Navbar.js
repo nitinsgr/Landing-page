@@ -20,10 +20,12 @@ const Navbar = () => {
       <div className="menu-icon" onClick={handleClick}>
        {active ? <MenuIcon className="w-8 h-8"/> : <BeakerIcon className="w-8 h-8"/>}
       </div>
-      <ul className={active ? "nav-menu flex active items-center" : "nav-menu space-x-4 font-Krona font-light text-sm "}>
+      <ul className={active ? "nav-menu flex active items-center" : "nav-menu space-x-6  font-Krona font-light text-sm  "}>
         {menuItems.map((item, index) => {
           return (
-            <li key={index}>
+            <li 
+            className=" hover:underline hover:bg-yellow-400 p-4 rounded-xl"
+            key={index}>
               <a href={item.url} className={item.cName}>
                 {item.title}
               </a>

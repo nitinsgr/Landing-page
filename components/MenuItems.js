@@ -2,32 +2,32 @@ const menuItems = [
   {
     title: "Download",
     url: "#",
-    cName: "nav-links"
+    cName: "Downloadlink"
   },
   {
     title: "Nitro",
     url: "#",
-    cName: "nav-links"
+    cName: "Nitrolink"
   },
   {
     title: "Safety",
     url: "#",
-    cName: "nav-links"
+    cName: "Safetylink"
   },
   {
     title: "Support",
     url: "#",
-    cName: "nav-links"
+    cName: "Supportlink"
   },
   {
     title: "Blog",
     url: "#",
-    cName: "nav-links"
+    cName: "Bloglink"
   },
   {
     title: "Careers",
     url: "#",
-    cName: "nav-links"
+    cName: "Careerlink"
   },
 ];
 
