@@ -6,7 +6,7 @@ import { FaBeer, FaFacebook, FaInstagram, FaInstagramSquare, FaTwitterSquare, Fa
 function Footer() {
   return (
     <div className="mx-auto items-center bg-slate-800 ">
-      <div className="grid grid-cols-1 md:grid-cols-6 space-x-12 gap-y-10 lg:p-40  mx-auto ml-32 bg-slate-800  bg-BannerBackground bg-no-repeat  bg-right   ">
+      <div className="grid grid-cols-1 md:grid-cols-6 space-x-12 gap-y-10 lg:p-40  mx-auto ml-32 bg-slate-800  ">
         <div>
           <h1 className="text-5xl font-Bowlby text-white">Imagine a place</h1>
           <div className="flex pt-2 items-center space-x-2">

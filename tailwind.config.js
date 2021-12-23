@@ -11,7 +11,8 @@ module.exports = {
       },
       backgroundImage : theme => ({
         'BannerBackground': "url('../images/Untitled-1.png')",
-        'bannerBackground2': "url('../images/clouds.jpg')"
+        'bannerBackground2': "url('../images/clouds.jpg')",
+        'newBackground': "url('../images/newBackground.jpg')"
       })
 
     },
