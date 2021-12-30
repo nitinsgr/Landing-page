@@ -1,4 +1,4 @@
-import VoiceIllustration from '../images/friends.png'
+import VoiceIllustration from '../images/8.png'
 import Image from 'next/image'
 
 function Voice() {
@@ -9,7 +9,7 @@ function Voice() {
         <h1 className=" text-black text-6xl w-2/4 font-Bowlby">Where hanging out is easy</h1>
         <p className=" w-2/4 pt-10">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
       </div>
-      <div className='mx-auto  scale-75'>
+      <div className='mx-auto  scale-75 transform  translate-x-1/4'>
         <Image src={VoiceIllustration} />
       </div>
       

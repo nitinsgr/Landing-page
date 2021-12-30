@@ -1,33 +1,24 @@
+import Link from 'next/link';
+
 const menuItems = [
   {
+    title: "Home",
+    Link : "/",
+  },
+  {
     title: "Download",
-    url: "#",
-    cName: "Downloadlink"
+    Link : "/Download",
+    bgcolor: "white"
   },
   {
     title: "Nitro",
-    url: "#",
+    Link: "/Nitro",
     cName: "Nitrolink"
   },
   {
     title: "Safety",
-    url: "#",
+    Link : "/Safety",
     cName: "Safetylink"
-  },
-  {
-    title: "Support",
-    url: "#",
-    cName: "Supportlink"
-  },
-  {
-    title: "Blog",
-    url: "#",
-    cName: "Bloglink"
-  },
-  {
-    title: "Careers",
-    url: "#",
-    cName: "Careerlink"
   },
 ];
 

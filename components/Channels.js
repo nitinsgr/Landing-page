@@ -1,11 +1,12 @@
 import Image from "next/image"
-import ChannelImage from '../images/16.png'
+import ChannelImage from '../images/7.png'
+
 
 
 function Channels() {
   return (
-   <div className="flex mx-auto  items-center justify-evenly max-w-7xl h-[100vh]">
-     <div className=" scale-90 transform  -translate-x-1/4">
+   <div className="flex mx-auto  items-center justify-evenly max-w-7xl h-screen">
+     <div className=" scale-75 -translate-x-1/4 transform ">
        <Image src={ChannelImage}/>
      </div>
      <div className=" w-4/12">
